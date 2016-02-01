@@ -121,6 +121,11 @@ snake\_case).  MixedCase (`crm`), camelCase (`crc`), snake\_case
 (`crs`), and UPPER\_CASE (`cru`) are all just 3 keystrokes away.  These
 commands support [repeat.vim](https://github.com/tpope/vim-repeat).
 
+Here is the necessary mapping:
+
+    nmap cr <Plug>Coerce
+
+
 ## Installation
 
 If you don't have a preferred installation method, I recommend
